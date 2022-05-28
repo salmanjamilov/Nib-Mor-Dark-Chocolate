@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,800;1,400;1,600&family=Oswald:wght@200;300;400;500;600;700&display=swap");
+
+/* 
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Oswald', sans-serif;
+*/
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+header {
+  min-height: 100vh;
+  background-image: url(../images/ezgif-1-d3ac2f667b.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.navbar-nav {
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+}
+
+.nav-link {
+  color: rgb(52 29 29);
+  border-radius: 7px;
+  padding: 7px 18px;
+}
+
+.nav-link:hover {
+  background-color: rgb(52 29 29);
+  color: aliceblue;
+  border-radius: 7px;
+  padding: 6px 18px;
+  transition: 0.4s ease;
+}
+
+.bannerContent {
+  color: white;
+  padding-top: 50px;
+}
+.bannerContent h1 {
+  font-weight: 900;
+  font-size: 50px;
+}
+.bannerContent p {
+  font-weight: 500;
+  font-size: 20px;
+}
+.bannerContent .btnCustom {
+  background-color: white;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  border-radius: 3px;
+  padding: 10px 35px;
+}
+
+.bannerContent .btnCustom:hover {
+  border-radius: 3px;
+  padding: 10px 34px;
+  background-color: rgb(52 29 29);
+  transition: 0.4s ease all;
+}
+
+.productSection {
+  text-align: center;
+}
+.heading {
+  color: rgb(128 57 45);
+}
+.heading h2 {
+  font-weight: 900;
+  font-size: 50px;
+}
+.heading p {
+  font-weight: 500;
+  font-size: 30px;
+}
+.productBox {
+}
+.productBox img {
+}
+.productBox h3 {
+  font-family: "Oswald", sans-serif;
+  color: rgb(128 57 45);
+  padding-top: 20px;
+}
+
+.btnProduct1 {
+  background-color: #dc015d;
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: white;
+  border-radius: 2px;
+  margin: 10px;
+  padding: 10px 15px;
+}
+
+.btnProduct2 {
+  background-color: #00a49b;
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: white;
+  border-radius: 2px;
+  margin: 10px;
+  padding: 10px 15px;
+}
+
+.btnProduct3 {
+  background-color: #7e3a2d;
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: white;
+  border-radius: 2px;
+  margin: 10px;
+  padding: 10px 15px;
+}
+
+.btnProduct1:hover {
+  background-color: #dc015d;
+  color: white;
+  padding: 10px 14px;
+}
+
+.btnProduct2:hover {
+  background-color: #00a49b;
+  color: white;
+  padding: 10px 14px;
+}
+
+.btnProduct3:hover {
+  background-color: #7e3a2d;
+  color: white;
+  padding: 10px 14px;
+}
+
+.productSection {
+}
+
+.exploreSection {
+  margin-top: 150px;
+}
+
+.exploreSection a {
+  font-weight: 900;
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+}
+
+.bg-skyblue {
+  background-color: #27c3ee;
+}
+
+.exploreSection a img {
+  display: block;
+  margin: auto;
+  width: 50px;
+}
+
+.exploreSection img:not(.arrow) {
+  height: 500px;
+  object-fit: cover;
+}

@@ -1,0 +1,62 @@
+/**  
+   1400 xxl
+   1200 xl
+   992 lg
+   768 md
+   576 sm
+   575 xsm
+          **/
+
+@media (max-width: 1399px) {
+  .bannerContent {
+    padding: 60px;
+  }
+
+  .bannerContent h1 {
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .bannerContent .btnCustom {
+    font-size: 18px;
+    padding: 10px 30px;
+  }
+
+  .productBox img {
+    max-width: 70%;
+  }
+}
+
+@media (max-width: 991px) {
+  .exploreSection a {
+    font-size: 24px;
+  }
+  .bannerContent {
+    color: #7c3306;
+    text-align: center;
+  }
+  .heading h2 {
+    font-family: "Oswald", sans-serif;
+  }
+}
+
+@media (max-width: 767px) {
+  .bannerContent {
+    color: #7c3306;
+    text-align: center;
+  }
+  .heading h2 {
+    font-family: "Oswald", sans-serif;
+  }
+}
+
+@media (max-width: 575px) {
+  .bannerContent {
+    color: #7c3306;
+    text-align: center;
+  }
+  .heading h2 {
+    font-family: "Oswald", sans-serif;
+  }
+}
